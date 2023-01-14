@@ -1,5 +1,4 @@
 #include "iostream"
-#include <string>
 int main(){
     long long a, b, c;
     char d;
@@ -29,6 +28,8 @@ int main(){
         c = a / b;
         std::cout << c;
     }
+    if (d != '+' && d != '-' && d != '*' && d != '/')
+        std::cout << "ERROR";
 }
 
 
